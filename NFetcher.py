@@ -5,7 +5,7 @@ import json
 import sys
 from datetime import datetime
 
-CACHE_FILE = '/tmp/.cached_pages'
+CACHE_FILE = '.cached_pages'
 
 def _handle_api_req_err(data):
     code = data['code']
