@@ -15,7 +15,7 @@ def _handle_api_req_err(data):
         print('The API key you supplied is invalid', file=sys.stderr)
     if code == 'rateLimited':
         print('The server has rate limited this API key', file=sys.stderr)
-    raise Exception('Failed to request to the API')
+    raise Exception('Failed to request to the API, Check your API Key')
 
 
 class NFetch:
