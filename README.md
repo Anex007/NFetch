@@ -11,7 +11,7 @@ pip install requests
 Get the API key from [NewsAPI](https://newsapi.org/) and add it to your environment variable by ``export GNEWS_API_KEY='YOUR_API_KEY' ``
 
 ### Example
-An example on how to use this API is shown in ``test.py``
+An example on how to use this API is shown in ``test.py``. If you need to control where to save the CACHE change the variable ``CACHE_FILE: NFetcher.py``
 
 ### Article Strcture
 
